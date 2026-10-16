@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Diana Melnyk",
+      "username": "diana_design",
+      "email": "diana.melnyk@example.com",
+      "role": "lead_designer"
+    },
+    {
+      "id": 2,
+      "name": "Maksym Koval",
+      "username": "m_koval",
+      "email": "m.koval@example.com",
+      "role": "frontend_dev"
+    },
+    {
+      "id": 3,
+      "name": "Olena Shevchenko",
+      "username": "olena_pm",
+      "email": "olena.sh@example.com",
+      "role": "project_manager"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "REST API Architecture Principles",
+      "body": "Overview of statelessness, caching, and client-server responsibilities.",
+      "userId": 1,
+      "category": "Architecture",
+      "tags": ["api", "rest", "backend"]
+    },
+    {
+      "id": 2,
+      "title": "UI Kit Organization in Modern Design Systems",
+      "body": "Best practices for token naming and atomic design approach.",
+      "userId": 1,
+      "category": "Design",
+      "tags": ["design", "ui", "tokens"]
+    },
+    {
+      "id": 3,
+      "title": "Mastering Fetch and Asynchronous JavaScript",
+      "body": "Detailed guide on handling HTTP responses and error boundaries.",
+      "userId": 2,
+      "category": "Frontend",
+      "tags": ["javascript", "web", "fetch"]
+    }
+  ]
+}
